@@ -13,8 +13,8 @@
 #include <string>
 #include <vector>
 
-std::vector<std::string> solution(const std::string &s)
-{
+std::vector<std::string> solution(const std::string &s) {
+	
 	std::vector<std::string> arr;
 	std::string tempStr;	// temporary string for pushing into array
 	
