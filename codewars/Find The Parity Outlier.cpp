@@ -10,7 +10,7 @@
 
 #include <vector>
 
-//function to check if number is odd
+// function to check if number is odd
 bool ifOdd(int number) {
 	if (number >= 0) {
 		return number % 2;
@@ -20,13 +20,13 @@ bool ifOdd(int number) {
 	}
 }
 
-//function to solve task
+// function to solve task
 int FindOutlier(std::vector<int> arr) {
 
-	bool odd;	//TRUE if mostly numbers are odd and it's needed to find an even number in array
-				//FALSE if mostly numbers are even and it's needed to find an odd number in array
+	bool odd;	// TRUE if mostly numbers are odd and it's needed to find an even number in array
+			// FALSE if mostly numbers are even and it's needed to find an odd number in array
 
-	//check if mostly numbers in array are odd or even by first 3 numbers
+	// check if mostly numbers in array are odd or even by first 3 numbers
 	if (ifOdd(arr[0]) == ifOdd(arr[1])) {
 		odd = ifOdd(arr[0]);
 	}
@@ -34,7 +34,7 @@ int FindOutlier(std::vector<int> arr) {
 		odd = ifOdd(arr[2]);
 	}
 
-	//looking for outlier
+	// looking for outlier
 	for (int i = 0; i <= arr.size() - 1; i++) {
 		if (ifOdd(arr[i]) != odd) {
 			return arr[i];
