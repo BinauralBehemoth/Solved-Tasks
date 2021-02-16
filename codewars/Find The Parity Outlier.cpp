@@ -6,6 +6,8 @@
  * comprised of even integers except for a single integer N. Write a method that takes the array
  * as an argument and returns this "outlier" N.
  */
+
+
 #include <vector>
 
 //function to check if number is odd
