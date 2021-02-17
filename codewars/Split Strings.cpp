@@ -28,7 +28,7 @@ std::vector<std::string> solution(const std::string &s) {
 		}
 	}
 
-	//if the string contains an odd number of characters
+	// if the string contains an odd number of characters
 	if (s.size() % 2 == 1) {
 		tempStr = s[s.size() - 1];
 		tempStr += '_';
