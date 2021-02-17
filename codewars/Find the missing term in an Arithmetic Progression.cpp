@@ -22,7 +22,6 @@ static long findMissing(std::vector<long> list) {
 	
 	long inc;	// for arithmetic progression difference
 
-
 	// find progression difference by first 3 numbers
 	if (list[1] - list[0] == list[2] - list[1]) {
 		inc = list[1] - list[0];
