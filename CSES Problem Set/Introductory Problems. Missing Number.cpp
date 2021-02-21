@@ -25,7 +25,6 @@
  * 4
  */
 
-
 #include <iostream>
 #include <vector>
 
