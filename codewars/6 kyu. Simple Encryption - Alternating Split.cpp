@@ -19,6 +19,7 @@
  * If n is <= 0 then return the input text.
  */
 
+
 #include <string>
 
 std::string encrypt(std::string text, int n)
